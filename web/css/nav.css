@@ -1,0 +1,90 @@
+/* navbar */
+.navbarku {
+    background-color: #02CA30;
+    border-color: #02CA30;
+}
+/* title */
+.navbarku .navbar-brand {
+    position: absolute;
+    color: #FFFFFF;
+}
+.navbarku .navbar-brand:hover,
+.navbarku .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbarku .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbarku .navbar-nav > li > a:hover,
+.navbarku .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbarku .navbar-nav > .active > a, 
+.navbarku .navbar-nav > .active > a:hover, 
+.navbarku .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbarku .navbar-nav > .open > a, 
+.navbarku .navbar-nav > .open > a:hover, 
+.navbarku .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbarku .navbar-nav > .dropdown > a .caret {
+    border-top-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.navbarku .navbar-nav > .dropdown > a:hover .caret,
+.navbarku .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbarku .navbar-nav > .open > a .caret, 
+.navbarku .navbar-nav > .open > a:hover .caret, 
+.navbarku .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbarku .navbar-toggle {
+    border-color: #DDD;
+}
+.navbarku .navbar-toggle:hover,
+.navbarku .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbarku .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbarku .navbar-nav .open .dropdown-menu > li > a {
+        color: #FFFFFF;
+    }
+    .navbarku .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbarku .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+.contentku {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.headergambar {
+    background-image: url('images/header1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bayangan {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+a {
+    color: black;
+}
